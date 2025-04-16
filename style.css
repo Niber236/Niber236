@@ -194,8 +194,15 @@ main h1{
  align-items: center;
 }
 
+#a-propos{
+   display: flex;
+   flex-direction: column;
+}
+
 .mes-projets{
 background: #585454;
+ display: flex;
+ flex-direction: column;
 }
 
    .mes-projets h1{
