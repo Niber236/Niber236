@@ -122,14 +122,14 @@ section{
 }
 
 .lien:hover{
-   color: #f6f1fa;
+   color:blue
 }
 
 .card img{
    width: 100px;
    height: 100px;
 }
-.card h2:hover{
+.projets-realiser:hover{
    color: yellow;
 }
 
@@ -194,6 +194,10 @@ main h1{
  align-items: center;
 }
 
+footer{
+   background: rgba(67, 159, 67, 0.377);
+}
+
 #a-propos{
    display: flex;
    flex-direction: column;
@@ -205,6 +209,11 @@ background: #585454;
  flex-direction: column;
 }
 
+.mon-parcour {
+display: flex;
+flex-direction: column;
+}
+
    .mes-projets h1{
       display: flex;
       justify-content: center;
@@ -213,10 +222,13 @@ background: #585454;
       height: 50px;
    }
  
-   
+   footer img{
+height: 50px;
+width: 50px;
+   }
 
 footer{
    display: flex;
-   align-items: center;
    justify-content: center;
+   flex-direction: column;
 }

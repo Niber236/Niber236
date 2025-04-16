@@ -1,15 +1,32 @@
 body{
-    background:rgb(39, 219, 147)
+    background:rgb(129, 21, 39);
+    
+    
+}
+
+body h3{
+    color:white;
 }
 
 h1{
     color: black;
 }
-old{
+ ol{
+    color: white;
+ }
     
     p{
-        color: #be17ca;
+        color: #000000;
     }
+
+iframe{
+    height: 5000px;
+    width: 500px;
+}
+
+.img{
+    animation-duration: 2s;
+}
 
 
 
