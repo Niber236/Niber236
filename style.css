@@ -113,6 +113,9 @@ main{
    
 }
 
+
+
+
 section{
    display: flex;
    justify-content: center;
@@ -195,7 +198,7 @@ main h1{
 }
 
 footer{
-   background: rgba(67, 159, 67, 0.377);
+   background: rgba(0, 0, 0, 0.377);
 }
 
 #a-propos{
