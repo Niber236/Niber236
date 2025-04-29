@@ -44,6 +44,11 @@ nav ul{
    gap: 16px;
 }
 
+.html{
+   display: flex;
+   flex-direction: row-reverse ;
+}
+
 header {
     background: #000000;
     color: white;
@@ -120,6 +125,7 @@ section{
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: row-reverse;
    width: 1000px;
    height: 300px;
 }
@@ -141,6 +147,7 @@ section{
    color: white;
    display: flex;
    justify-content: space-between;
+   flex-direction: column-reverse;
 
    font-family: sans-serif;
    /* text-transform: uppercase; */
@@ -151,6 +158,7 @@ section{
    /* padding: 16px; */
    transition: all 1s ease-in-out;
    width: 30%;
+   height: 250px;
    border-radius: 16px;
    background: #000000;
    padding: 10px;
@@ -182,6 +190,7 @@ section{
 
 .cartes-container{
    display: flex;
+   
    gap: 16px;
    height: 300px;
 }
@@ -195,10 +204,12 @@ main h1{
    display: flex;
    justify-content: center;
  align-items: center;
+ flex-direction: row;
+ height: 100px;
 }
 
 footer{
-   background: rgba(0, 0, 0, 0.377);
+   background: rgba(40, 41, 48, 0.329);
 }
 
 #a-propos{
@@ -207,7 +218,7 @@ footer{
 }
 
 .mes-projets{
-background: #585454;
+background: #1c1b1b;
  display: flex;
  flex-direction: column;
 }
@@ -230,8 +241,17 @@ height: 50px;
 width: 50px;
    }
 
+.footer{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-end;
+   margin: 14px;
+}
+
 footer{
    display: flex;
    justify-content: center;
    flex-direction: column;
+   background: #171616;
+gap: 0%;
 }
